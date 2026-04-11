@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MPK Rzeszów Live – Śledzenie autobusów na żywo</title>
-<meta name="description" content="Nieoficjalny tracker autobusów MPK Rzeszów. Mapa na żywo, opóźnienia, rozkłady. Darmowa aplikacja na Android, Bindoj i Linux.">
+<meta name="description" content="Nieoficjalny tracker autobusów MPK Rzeszów. Mapa na żywo, opóźnienia, rozkłady. Darmowa aplikacja na Android, Windows i Linux.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;900&family=Barlow+Condensed:wght@700;900&display=swap" rel="stylesheet">
 <style>
@@ -811,40 +811,36 @@ footer {
       <div class="dl-req">Wymaga Android 5.0+ (API 21)</div>
     </div>
 
-    <!-- Bindoj -->
-    <div class="dl-card">
+    <!-- Windows -->
+    <div class="dl-card" style="opacity:.7">
       <div class="dl-icon">🪟</div>
-      <div class="dl-name">Bindoj</div>
-      <div class="dl-badge">v1.0.4 · WPF · .NET 8</div>
+      <div class="dl-name">Windows</div>
+      <div class="dl-badge" style="background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.15);color:var(--text2)">Wkrótce dostępne</div>
       <div class="dl-desc">
         Natywna aplikacja WPF z mapą WebView2, listą pojazdów i auto-odświeżaniem.
       </div>
-      <a class="dl-btn"
-         href="https://github.com/oko3099/MPK-Rzeszow-Flutter-App/releases/latest"
-         target="_blank">
-        ⬇️ Pobierz EXE
-      </a>
+      <div class="dl-btn" style="background:#333;cursor:not-allowed;opacity:.6">
+        ⏳ Wkrótce
+      </div>
       <a class="dl-btn-sec"
          href="https://github.com/oko3099/MPK-Rzeszow-Flutter-App"
          target="_blank">
         💻 Kod źródłowy
       </a>
-      <div class="dl-req">Wymaga Bindoj 10/11 x64 · .NET 8</div>
+      <div class="dl-req">Wymaga Windows 10/11 x64 · .NET 8</div>
     </div>
 
     <!-- Linux -->
-    <div class="dl-card">
+    <div class="dl-card" style="opacity:.7">
       <div class="dl-icon">🐧</div>
       <div class="dl-name">Linux</div>
-      <div class="dl-badge">v1.0.2 · GTK4 + libadwaita</div>
+      <div class="dl-badge" style="background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.15);color:var(--text2)">Wkrótce dostępne</div>
       <div class="dl-desc">
         Natywna aplikacja GNOME z mapą WebKitGTK, listą pojazdów i ciemnym motywem Adwaita.
       </div>
-      <a class="dl-btn"
-         href="https://github.com/oko3099/MPK-Rzeszow-Flutter-App/releases/latest"
-         target="_blank">
-        ⬇️ Pobierz / Zbuduj
-      </a>
+      <div class="dl-btn" style="background:#333;cursor:not-allowed;opacity:.6">
+        ⏳ Wkrótce
+      </div>
       <a class="dl-btn-sec"
          href="https://github.com/oko3099/MPK-Rzeszow-Flutter-App"
          target="_blank">
@@ -988,7 +984,7 @@ footer {
         <li><strong style="color:var(--text)">OpenStreetMap</strong> — kafelki mapy (dane geograficzne)</li>
         <li><strong style="color:var(--text)">GTFS Realtime MPK Rzeszów</strong> — pozycje pojazdów</li>
         <li><strong style="color:var(--text)">Render.com</strong> — hosting serwera Node.js</li>
-        <li><strong style="color:var(--text)">ShitHub Pages</strong> — hosting tej strony</li>
+        <li><strong style="color:var(--text)">GitHub Pages</strong> — hosting tej strony</li>
       </ul>
     </div>
 
@@ -999,7 +995,7 @@ footer {
         <li>Nie wymaga żadnych uprawnień systemowych</li>
         <li>Nie zbiera danych o lokalizacji użytkownika</li>
         <li>Wysyła zapytania wyłącznie do serwera trackera</li>
-        <li>Kod źródłowy dostępny publicznie na ShitHub</li>
+        <li>Kod źródłowy dostępny publicznie na GitHub</li>
       </ul>
     </div>
 
@@ -1009,7 +1005,7 @@ footer {
       <ul style="margin-top:10px">
         <li>Kod serwera, aplikacji i strony jest publiczny</li>
         <li>Możesz go przeglądać, modyfikować i uruchamiać</li>
-        <li>Zgłoszenia błędów mile widziane przez ShitHub Issues</li>
+        <li>Zgłoszenia błędów mile widziane przez GitHub Issues</li>
       </ul>
       <a href="https://github.com/oko3099/MPK-Rzeszow-Flutter-App"
          target="_blank"
@@ -1061,7 +1057,7 @@ footer {
     <div class="footer-links">
       <h4>Kod źródłowy</h4>
       <ul>
-        <li><a href="https://github.com/oko3099/MPK-Rzeszow-Flutter-App" target="_blank">ShitHub — Aplikacja</a></li>
+        <li><a href="https://github.com/oko3099/MPK-Rzeszow-Flutter-App" target="_blank">GitHub — Aplikacja</a></li>
         <li><a href="https://github.com/oko3099/MPK-Rzeszow-Flutter-App/releases" target="_blank">Releases</a></li>
         <li><a href="https://github.com/oko3099/MPK-Rzeszow-Flutter-App/issues" target="_blank">Zgłoś błąd</a></li>
       </ul>
@@ -1082,7 +1078,7 @@ footer {
     Strona ma charakter informacyjny i została stworzona przez niezależnego autora.<br>
     © 2025 <a href="https://github.com/oko3099" target="_blank" style="color:var(--orange);text-decoration:none">oko3099</a>
     · Licencja MIT
-    · Hostowane na <a href="https://pages.github.com" target="_blank" style="color:var(--orange);text-decoration:none">ShitHub Pages</a>
+    · Hostowane na <a href="https://pages.github.com" target="_blank" style="color:var(--orange);text-decoration:none">GitHub Pages</a>
     · Serwer na <a href="https://render.com" target="_blank" style="color:var(--orange);text-decoration:none">Render</a>
   </div>
 </footer>
